@@ -19,7 +19,7 @@ class PromptRequest(BaseModel):
     prompt: str
 
 # Put your actual Groq API key here or set it via an environment variable
-GROQ_API_KEY = "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"  # <--- Replace with your actual Groq API key
+GROQ_API_KEY = "------------------ur api key---------"  # <--- Replace with your actual Groq API key
 
 @app.post("/generate")
 async def generate(request: PromptRequest):
